@@ -1,0 +1,84 @@
+/*========== RESET STYLES ==========*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*========== COLOR VARIABLES ==========*/
+:root{
+    --dark-primiary: #2A254B;
+    --primiary: #4E4D93;
+    --light-gray: #F9F9F9;
+    --border-gray: #EBE8F4;
+    --border-dark: #CAC6DA;
+}
+
+/*========== CONNECTING FONTS ==========*/
+@font-face {
+    font-family: "Satoshi";
+    src: url('./fonts/Satoshi-Regular.woff2');
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(./fonts/ClashDisplay-Regular.woff2);
+}
+
+/*========== STYLING HEADERS ==========*/
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5,
+.heading6 {
+    font-family: "Clash Display";
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.heading1{
+    font-size: 36px;
+}
+
+.heading2{
+    font-size: 32px;
+}
+
+.heading3{
+    font-size: 24px;
+}
+
+.heading4{
+    font-size: 20px;
+}
+
+.heading5{
+    font-size: 16px;
+}
+
+.heading6{
+    font-size: 14px;
+}
+
+/*========== STYLING TEXT ==========*/
+.large-text,
+.medium-text,
+.small-text{
+    font-family: "Satoshi";
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.large-text{
+    font-size: 18px;
+}
+
+.medium-text{
+    font-size: 16px;
+}
+
+.small-text{
+    font-size: 14px;
+}
+
